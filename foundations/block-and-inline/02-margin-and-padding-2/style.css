@@ -7,6 +7,7 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
+  border: solid 5px white;
 }
 
 .title,
@@ -15,6 +16,10 @@ body {
   background: dodgerblue;
   margin: 10px;
   padding: 20px;
+}
+
+.title {
+  font-size: 16px;
 }
 
 button {
