@@ -3,9 +3,24 @@ body {
   
 }
 
+.body-content{
+  display:flex;
+  border:solid red;
+  gap:20px;
+  
+}
+
+
+
+div {
+  border:solid blue;
+  
+}
+
 img {
   width: 100px;
   height: 100px;
+  
 }
 
 .title {
@@ -14,8 +29,6 @@ img {
 
   display:flex;
   justify-content:center;
-  
-
 }
 
 /* do not edit this footer */
@@ -31,7 +44,6 @@ img {
   background: #eee;
 }
 
-.body-content{
-  display:flex;
-  
-}
+
+
+
