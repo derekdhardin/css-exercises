@@ -6,10 +6,17 @@ body {
 .body-content{
   display:flex;
   border:solid red;
-  gap:20px;
+  justify-content:space-around;
   
 }
 
+
+
+.barberry, .chili, .pepper, .saffron  {
+  display:block;
+  justify-content: center;
+  
+}
 
 
 div {
@@ -17,10 +24,17 @@ div {
   
 }
 
+
 img {
   width: 100px;
   height: 100px;
+
   
+  justify-content:space-around;
+  
+  background-color: blueviolet;
+
+
 }
 
 .title {
