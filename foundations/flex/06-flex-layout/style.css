@@ -2,7 +2,8 @@
 
 * {
   border: solid red 1px;
-
+  box-sizing: border-box;
+  margin:2px;
 }
 
 body {
@@ -10,6 +11,18 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display:flex;
+  
+  
 }
 
 img {
