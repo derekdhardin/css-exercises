@@ -21,7 +21,7 @@ body {
 
 .left-links, .right-links {
   display:flex;
-  
+  list-style: none;
   
 }
 
