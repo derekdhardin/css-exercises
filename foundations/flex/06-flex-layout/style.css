@@ -11,17 +11,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
 
 }
 
 .center, .input, .buttons {
   display: flex;
   justify-content: center;
-}
-
-button {
-  width:150px;
-  height:20px;
 }
 
 .header {
@@ -35,6 +31,13 @@ button {
   
 }
 
+.footer {
+  display: flex;
+  
+
+  
+}
+
 img {
   width: 600px;
 }
@@ -44,6 +47,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  width:150px;
+  height:20px;
 }
 
 input {
