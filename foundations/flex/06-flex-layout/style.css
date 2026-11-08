@@ -19,7 +19,10 @@ body {
   justify-content: center;
 }
 
-
+button {
+  width:150px;
+  height:20px;
+}
 
 .header {
   display:flex;
